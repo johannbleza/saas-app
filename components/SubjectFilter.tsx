@@ -11,7 +11,6 @@ import {
 import { subjects } from "@/constants";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { formUrlQuery, removeKeysFromUrlQuery } from "@jsmastery/utils";
-import { Value } from "@radix-ui/react-select";
 
 const SubjectFilter = () => {
   const pathname = usePathname();
